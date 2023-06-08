@@ -56,7 +56,7 @@ const Main = ({ index, movie }) => {
             </button>
             <button onClick={watchLater} className="border flex flex-row text-white border-gray-300 py-2 px-5 ml-4 hover:bg-gray-300 hover:text-black">
               {checkWatchLater?.length !== 0 && <BsCheckLg className="text-white mr-3 mt-1" />}
-              Watch Later
+              Add Favourite
             </button>
           </div>
           <p className="text-gray-400 text-sm">

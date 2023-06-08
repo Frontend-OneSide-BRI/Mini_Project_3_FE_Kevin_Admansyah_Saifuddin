@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import { UserAuth } from "../../../src/context/AuthContext";
+import { UserAuth } from "../context/AuthContext";
 import { IoSearchCircle, IoCloseCircle } from "react-icons/io5";
 import { useDispatch, useSelector } from "react-redux";
-import { searchMovie, selectMovieCollection } from "../../../src/store/reducers/movieReducer";
-import { EMPTYACCOUNT } from "../../../src/store/reducers/accountReducer";
+import { searchMovie, selectMovieCollection } from "../store/reducers/movieReducer";
+import { EMPTYACCOUNT } from "../store/reducers/accountReducer";
 
 const Navbar = () => {
   const { user, logOut } = UserAuth();
